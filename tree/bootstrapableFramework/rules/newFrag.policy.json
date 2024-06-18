@@ -1,0 +1,12 @@
+{
+  "goid": "48364925a940a0c61e1c264147c71d79",
+  "guid": "bf8493d4-b535-4159-87d9-d9f508184a7e",
+  "name": "newFrag",
+  "policyType": "FRAGMENT",
+  "checksum": "8f3115cd8ff9f9e93c4b26ddf895c47faa9cc002",
+  "folderPath": "/bootstrapableFramework/rules",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:SetVariable>\n            <L7p:Base64Expression stringValue=\"TmV3IGZyYWdtZW50IGxvZ2ljIGFkZGVk\"/>\n            <L7p:VariableToSet stringValue=\"myFragExport\"/>\n        </L7p:SetVariable>\n        <L7p:ExportVariables>\n            <L7p:ExportedVars stringArrayValue=\"included\">\n                <L7p:item stringValue=\"myFragExport\"/>\n            </L7p:ExportedVars>\n        </L7p:ExportVariables>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

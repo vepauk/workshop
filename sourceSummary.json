@@ -1,0 +1,317 @@
+{
+  "services": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e685",
+      "guid": "03ce0919-40f8-43c0-8fff-124b8487d79f",
+      "serviceType": "WEB_API",
+      "resolutionPath": "/api1",
+      "checksum": "91aa2436fe7b711e2357170867ca71317e4c9f63"
+    },
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e716",
+      "guid": "9a8669f5-083f-4f33-ab77-9062a793321b",
+      "serviceType": "WEB_API",
+      "resolutionPath": "/api2",
+      "checksum": "df58f7fff5bb64e045995933d97a0c0e46602cee"
+    },
+    {
+      "goid": "0bb3eb230790402d92ef0c74f0f7d9b7",
+      "guid": "fd8ef241-93bb-4871-97fc-fba2fbd96d2f",
+      "serviceType": "INTERNAL_WEB_API",
+      "resolutionPath": "/graphman",
+      "checksum": "698e74df3d9c47187d1c87faeb84c208844475d3"
+    },
+    {
+      "goid": "982cc1ee7369c6ca5a7ae1e4ad8ba399",
+      "guid": "afc84454-07cb-4914-a1fa-ca679d014ce9",
+      "serviceType": "WEB_API",
+      "resolutionPath": "/testheaders",
+      "checksum": "523c398557c3493216fb84fba7422664843f0d30"
+    }
+  ],
+  "policies": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e6db",
+      "guid": "e513b52b-7d41-416f-9906-17f8e12b6d6a",
+      "name": "ABC Rules",
+      "policyType": "FRAGMENT",
+      "checksum": "68e51bd88ca08478e3de7bea20c26a60d6037d64"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e4db6",
+      "guid": "a9f7163b-d17a-42e8-9b75-855ca6f67c08",
+      "name": "Generic API Template",
+      "policyType": "FRAGMENT",
+      "checksum": "6eee5aefed1703176a30aa780af9a649cffd276a"
+    },
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d07",
+      "guid": "5fde4fb4-72b4-4435-a564-fd1b9990f494",
+      "name": "dailySync",
+      "policyType": "POLICY_BACKED_BACKGROUND_TASK",
+      "checksum": "1222498b94a80f462d7df1b892521c46340471eb"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e4cd4",
+      "guid": "7079ed73-1730-4679-bdc0-6cc56b9fb4bc",
+      "name": "enforcePlan",
+      "policyType": "FRAGMENT",
+      "checksum": "c8d54baac4428f44e9ae4f3f83fbcf09db98c526"
+    },
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d31",
+      "guid": "400cae20-08dd-4e46-b2ea-919b25f40321",
+      "name": "globalReceived",
+      "policyType": "GLOBAL",
+      "checksum": "3fc77f056ed068273a3fe2e80396d59978e48c97"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e46d5",
+      "guid": "0303de0b-1ce7-46f3-bef4-95e4ebe8de5d",
+      "name": "lookupSubscriptions",
+      "policyType": "FRAGMENT",
+      "checksum": "6389be71f853a73876efb16b4f40ae48a8df6c9a"
+    },
+    {
+      "goid": "48364925a940a0c61e1c264147c71d79",
+      "guid": "bf8493d4-b535-4159-87d9-d9f508184a7e",
+      "name": "newFrag",
+      "policyType": "FRAGMENT",
+      "checksum": "8f3115cd8ff9f9e93c4b26ddf895c47faa9cc002"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a2c",
+      "guid": "3b1c8451-6af9-4983-ae6b-1f7e795ab571",
+      "name": "sub_abc",
+      "policyType": "FRAGMENT",
+      "checksum": "9abaf6ef0b3c27e226a9dc20b8c439614a43b2cd"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a47",
+      "guid": "a88d82dd-e024-4c22-a6db-a8fc91e8b105",
+      "name": "sub_def",
+      "policyType": "FRAGMENT",
+      "checksum": "2365a2222e01c77b5729e103f736ae744300457b"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a61",
+      "guid": "e15a5669-0bf8-4873-97e4-d21464a7fe42",
+      "name": "sub_ghi",
+      "policyType": "FRAGMENT",
+      "checksum": "2f9651615b341dd78c6095e7b3c50b4140debfd6"
+    }
+  ],
+  "clusterProperties": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e5f3",
+      "name": "a",
+      "checksum": "b77d1a0eca5224e5a33453b8fa6ace8fcbb1ce5e"
+    },
+    {
+      "goid": "cf9dcade387a583675f6d865d019de94",
+      "name": "audit.setDetailLevel.FINE",
+      "checksum": "2ef1d6f928b5e331fb3d258f596a93ef41c8ab6d"
+    },
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e5f9",
+      "name": "b",
+      "checksum": "f2e671c056a9942360caca33e0051919626d2b49"
+    },
+    {
+      "goid": "0000000000000000fffffffffff5519f",
+      "name": "cluster.hostname",
+      "checksum": "ce73ab280cdeb871572dab56c5113b69ee33d718"
+    },
+    {
+      "goid": "ed0473195dc692eb04e728b1668a9287",
+      "name": "io.httpsHostAllowWildcard",
+      "checksum": "b64f30c7d88b60bbf1b0def0178b40291c09e06b"
+    },
+    {
+      "goid": "5c34443243ea7a2cd2f9e40a08ba2bb3",
+      "name": "keyStore.defaultSsl.alias",
+      "checksum": "ea7e440267e9c93b25578950c783ddca2f0fd50b"
+    },
+    {
+      "goid": "b9be47f800a93eb4950b56612c1ef727",
+      "name": "log.levels",
+      "checksum": "bf4ba835f74b79783055e4fe4a890537d281c5b1"
+    },
+    {
+      "goid": "982cc1ee7369c6ca5a7ae1e4ad866070",
+      "name": "myDemoConfigVal",
+      "checksum": "638693aa29ba0cd8aa4bb9d63335cf687f72a482"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e4596",
+      "name": "plan_a_members",
+      "checksum": "2dbd3dec9e3407101060070dbe060e7c605c93ab"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e512d",
+      "name": "plan_b_members",
+      "checksum": "599a90508f96df36e95e0292e545000f241929d4"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e5133",
+      "name": "plan_c_members",
+      "checksum": "72890ff8c32d567f59593847564d5dc8b9fcbcc1"
+    }
+  ],
+  "dtds": [
+    {
+      "goid": "0000000000000000fffffffffffffff9",
+      "systemId": "http://www.w3.org/2001/XMLSchema.dtd",
+      "checksum": "71a42d9e1e9b691bef5598c8b860636ea8a040db"
+    },
+    {
+      "goid": "0000000000000000fffffffffffffffa",
+      "systemId": "http://www.w3.org/2001/datatypes.dtd",
+      "checksum": "a56e735fac91471b97cef51b6373d8947658b498"
+    }
+  ],
+  "schemas": [
+    {
+      "goid": "0000000000000000fffffffffffffffd",
+      "systemId": "http://schemas.xmlsoap.org/soap/envelope/",
+      "checksum": "8b471f22e1f58b46a83d86211d55d0f894fadfcb"
+    },
+    {
+      "goid": "0000000000000000fffffffffffffffb",
+      "systemId": "http://www.w3.org/2001/xml.xsd",
+      "checksum": "d45fff97a2f2707f594573832f312d88afca228c"
+    },
+    {
+      "goid": "0000000000000000fffffffffffffffc",
+      "systemId": "http://www.w3.org/2003/05/soap-envelope/",
+      "checksum": "f73c1c611cb0023d29988485f7ed9acf961aba81"
+    }
+  ],
+  "internalUsers": [
+    {
+      "goid": "00000000000000000000000000000003",
+      "name": "admin",
+      "login": "admin",
+      "checksum": "f8fff2bdc9bac7c81dde0091328ddc3e2b847593"
+    }
+  ],
+  "jdbcConnections": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e762",
+      "name": "mydb",
+      "checksum": "a715a97ffade884b6527be1252593478e9c95357"
+    }
+  ],
+  "jmsDestinations": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d57",
+      "connectionGoid": "84449671abe2a5b143051dbdfdf81d55",
+      "name": "eventsOut",
+      "direction": "OUTBOUND",
+      "providerType": "WEBLOGIC JMS",
+      "checksum": "f8c6a0108c998495a5a78d1223129cb0f053f54d"
+    }
+  ],
+  "keys": [
+    {
+      "goid": "00000000000000000000000000000002:blah",
+      "keystoreId": "00000000000000000000000000000002",
+      "alias": "blah",
+      "checksum": "171c8376f9f9c32c679e2cf7217803450b483b43"
+    },
+    {
+      "goid": "00000000000000000000000000000002:ssl",
+      "keystoreId": "00000000000000000000000000000002",
+      "alias": "ssl",
+      "checksum": "45a049c27a4b7aba6b5a7decf937ddabdb16ccc1"
+    }
+  ],
+  "listenPorts": [
+    {
+      "goid": "e2e89821bc392ab64a6e30df1224f663",
+      "name": "Default HTTP (8080)",
+      "checksum": "69762ec112b7fd7d72ee8757f975a96ea1d1f148"
+    },
+    {
+      "goid": "8fc98a51a9675a6f40ea91615f9cbc3f",
+      "name": "Default HTTPS (8443)",
+      "checksum": "2da9b090d996a848c28555865246aed0113351da"
+    },
+    {
+      "goid": "2dbcc527d5c41b85df185f3f51b55555",
+      "name": "Default HTTPS (9443)",
+      "checksum": "80e7c4a37dd63b0dfda0476182970915da705748"
+    }
+  ],
+  "scheduledTasks": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81e01",
+      "name": "My Daily Clean and Sync",
+      "checksum": "02ebea211860a78a09f5f1c0ef56809b64fbd57c"
+    }
+  ],
+  "secrets": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e76e",
+      "name": "mydb",
+      "checksum": "fb4347dc7999c213d0c3d7d8ce5aa73cc140a165"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6782",
+      "name": "newpasswd",
+      "checksum": "1e3964f8fd4e0dbbf8ed84570cca97da530b7d44"
+    }
+  ],
+  "trustedCerts": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e704",
+      "name": "www.broadcom.com",
+      "subjectDn": "cn=www.broadcom.com,o=broadcom inc,l=san jose,st=california,c=us",
+      "thumbprintSha1": "4w230rgczdepEDjkuO8gYsOfyTU=",
+      "checksum": "1866cef9812889ec2518d0f41bf84612d4399241"
+    },
+    {
+      "goid": "b0d3626aca1059df72c15dc30daef3b1",
+      "name": "AutoTrustSslKey",
+      "subjectDn": "cn=ssg-7b6544d9dd-qcnzb",
+      "thumbprintSha1": "Q9sjfN0te+Nw1omGqk24z9UVp/U=",
+      "checksum": "ee7b6be4c2e7b2b3a070d9070340ce2e4110ee08"
+    },
+    {
+      "goid": "982cc1ee7369c6ca5a7ae1e4ad86dc6b",
+      "name": "New trusted cert",
+      "subjectDn": "cn=*.tesla.com,o=tesla\\, inc.,l=palo alto,st=california,c=us",
+      "thumbprintSha1": "iZJ/xtwDDv+gic0J9idwO9XqYVw=",
+      "checksum": "a365254617c3151a282af375d1fc4814d85d6556"
+    }
+  ],
+  "logSinks": [
+    {
+      "goid": "0000000000000000fffffffffffffcd6",
+      "name": "ssg",
+      "checksum": "3d5d8d051286dda647c6b0939c50e1e63038596b"
+    },
+    {
+      "goid": "0000000000000000fffffffffffffcd5",
+      "name": "sspc",
+      "checksum": "bdfc1c5c83649cdccc004ab1b25dd1bfede0792f"
+    }
+  ],
+  "internalIdps": [
+    {
+      "goid": "0000000000000000fffffffffffffffe",
+      "name": "Internal Identity Provider",
+      "checksum": "909dcb79418e5aaca75df96cc0ec2b2cbc3bdef4"
+    }
+  ],
+  "properties": {
+    "meta": {
+      "id": "bf98f992-3f10-4e0e-b813-260f2a4434ab",
+      "name": "Gateway Graphman Bundle - 2024-06-18T14:58:23.333Z",
+      "author": "admin",
+      "hostname": "mydevgw.brcmlabs.com",
+      "timestamp": "2024-06-18T14:58:23.333Z"
+    },
+    "defaultAction": "NEW_OR_UPDATE"
+  }
+}
